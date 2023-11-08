@@ -5,7 +5,56 @@
 #mainHeader{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    height: 100px;
+}
+.horizBar{ 
+    /* display: flex; */
+    width: 5px;
+    height: 20px;
+    /* gap: 20px; */
+    padding: 10px;
+    background-color: red;
+}
+#logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
 }
 #leftHeader{
     display: flex;
+    gap: 40px;
+}
+#leftHeader>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+#rightHeader{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#startOrder{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#btnStartOrder{
+    /* width: 150px;
+    height: 40px; */
+    font-size: 16px;
+    padding: 15px 50px;
+    border: none ;
+    border-radius: 25px;
+    background-color: rgb(224, 3, 3);
+    color: white;
+    font-weight: bolder;
+
+
 }

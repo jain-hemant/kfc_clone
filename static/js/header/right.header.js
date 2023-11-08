@@ -1,9 +1,12 @@
+let imgSearch = "https://cdn4.iconfinder.com/data/icons/basic-ui-glyph-free/24/Search-256.png"
+let imgAccount = "https://cdn0.iconfinder.com/data/icons/cryptocurrency-137/128/1_profile_user_avatar_account_person-132-256.png"
+let imgBag = "https://cdn2.iconfinder.com/data/icons/flat-ui-free/200/bag.png"
 export const rightHeader = `
     <div id="rightHeader">    
-        <a id= "search" href="">search</a>
-        <a id="account" href="">account</a>
-        <a id="bag" href="">bag</a>
-        <button>Start Order</button>
+        <a id= "search" href=""><img src="${imgSearch}" height="30"></a>  
+        <a id="account" href=""><img src="${imgAccount}" height="30"></a>      
+        <a id="bag" href=""><img src="${imgBag}" height="30"></a>
+        <button id="btnStartOrder">Start Order</button>
     </div>
 `;
 
