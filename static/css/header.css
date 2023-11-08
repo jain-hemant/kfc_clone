@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#mainHeader{
+    display: flex;
+    justify-content: space-around;
+}
+#leftHeader{
+    display: flex;
+}

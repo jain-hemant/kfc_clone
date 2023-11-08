@@ -1,4 +1,10 @@
-import leftHeader from "./left.Header";
-import rightHeader from "./right.header";
-export {leftHeader,rightHeader}
-// console.log(leftHeader,rightHeader)
+import { leftHeader } from "./left.header.js";
+import { rightHeader } from "./right.header.js";
+let header = document.getElementById("header")
+const finalHeader = `
+    <div id="mainHeader">
+    ${leftHeader}
+    ${rightHeader}    
+    </div>
+`
+header.innerHTML = finalHeader
