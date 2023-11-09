@@ -3,7 +3,7 @@
     padding: 0px;
 }
 #mainHeader{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
