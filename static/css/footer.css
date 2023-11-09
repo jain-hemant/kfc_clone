@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#aboutFooter{
+    display: flex;
+    width: 77%;
+    margin-left:10% ;
+    text-align: justify;
+}
+#linkFooter{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;  
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+.linkFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.linkFooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+}
