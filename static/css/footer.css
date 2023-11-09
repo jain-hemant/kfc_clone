@@ -2,24 +2,53 @@
     margin: 0px;
     padding: 0px;
 }
-#aboutFooter{
+#compileFooter{
+    /* border: 1px solid red; */
     display: flex;
-    width: 77%;
-    margin-left:10% ;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 15%;
+
+}
+#compileFooter p, #compileFooter a, #compileFooter h5{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(213, 215, 216);
+}
+#footerLogo p{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    text-align: center;
+    color: white;
+}
+#aboutFooter{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     text-align: justify;
+    line-height: 20px;
+    word-spacing: 3px; 
+    color: rgb(230, 225, 225);
+    padding: 20px 0px;
+}
+#aboutFooter p:nth-child(1){
+    width: 68%;
 }
 #linkFooter{
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-evenly;  
-    padding: 40px;
-    background-color: black;
-    color: white;
+    justify-content: space-between;  
+    /* padding: 40px; */
+    color: rgb(230, 225, 225);
+    padding: 40px 0px;
+
 }
 .linkFooter{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-top: 20px;
 }
 .linkFooter a{
     text-decoration: none;
@@ -28,3 +57,28 @@
     line-height: 25px;
     text-align: justify;
 }
+
+#tradmarkFooter {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 40px; */
+    padding: 20px 0px;
+    
+}
+
+#tradmarkFooter a,p{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+.row:nth-child(2){
+    margin-left: -5%;
+}
+
+#build{
+    display: block; 
+    color: rgb(230, 225, 225);
+    margin-top: -20px; 
+} 

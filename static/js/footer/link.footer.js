@@ -1,10 +1,12 @@
 export const linkFooter = `
     <div id="linkFooter">
-        <div>
-            Logo
+        <div id="footerLogo">
+            <p>Kenturcky Fried</p>
+            <p>Chicken</p>
+            <p>^</p>
         </div>
         <div>
-            <h3>KFC Food</h3>
+            <h5>KFC Food</h5>
             <div class="linkFooter">
                 <a href="">Menu</a>
                 <a href="">Full Notification Guide</a>
@@ -13,7 +15,7 @@ export const linkFooter = `
             </div>
         </div>
         <div>
-            <h3>Company</h3>
+            <h5>Company</h5>
             <div class="linkFooter">
                 <a href="">About KFC</a>
                 <a href="">How We Make Chicken</a>
@@ -25,7 +27,7 @@ export const linkFooter = `
             </div>
         </div>
         <div>
-            <h3>Careers</h3>
+            <h5>Careers</h5>
             <div class="linkFooter">
                 <a href="">Restuarant Carrers</a>
                 <a href="">Corporate Careers</a>
@@ -34,7 +36,7 @@ export const linkFooter = `
             </div>
         </div>
         <div>
-            <h3>Resources</h3>
+            <h5>Resources</h5>
             <div class="linkFooter">
                 <a href="">FAQs</a>
                 <a href="">Contact US</a>
@@ -42,7 +44,7 @@ export const linkFooter = `
             </div>
         </div>
         <div>
-        <h3>KFC Find a KFC</h3>
+        <h5>Find a KFC</h5>
         <div class="linkFooter">
                 <a href="">Find a KFC</a>              
             </div>

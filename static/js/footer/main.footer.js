@@ -4,9 +4,9 @@ import {trademarkFooter} from "./tradmark.footer.js"
 let footer = document.getElementById("footer")
 const compileFooter = `
     <div id="compileFooter"> 
-    ${aboutFooter}
-    ${linkFooter}
-    ${trademarkFooter}
+        ${aboutFooter}
+        ${linkFooter}
+        ${trademarkFooter}
     </div>
 
 `
