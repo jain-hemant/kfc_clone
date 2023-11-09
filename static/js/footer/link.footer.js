@@ -6,45 +6,45 @@ export const linkFooter = `
         <div>
             <h3>KFC Food</h3>
             <div class="linkFooter">
-                <a>Menu</a>
-                <a>Full Notification Guide</a>
-                <a>Nutrition Calculator</a>
-                <a>Food Allergies & Sensitivities</a>
+                <a href="">Menu</a>
+                <a href="">Full Notification Guide</a>
+                <a href="">Nutrition Calculator</a>
+                <a href="">Food Allergies & Sensitivities</a>
             </div>
         </div>
         <div>
             <h3>Company</h3>
             <div class="linkFooter">
-                <a>About KFC</a>
-                <a>How We Make Chicken</a>
-                <a>KFC Foundation</a>
-                <a>Company Responsibility</a>
-                <a>Franchise a KFC</a>
-                <a>Responsible Discloser</a>
-                <a>KFC Newsroom</a>
+                <a href="">About KFC</a>
+                <a href="">How We Make Chicken</a>
+                <a href="">KFC Foundation</a>
+                <a href="">Company Responsibility</a>
+                <a href="">Franchise a KFC</a>
+                <a href="">Responsible Discloser</a>
+                <a href="">KFC Newsroom</a>
             </div>
         </div>
         <div>
             <h3>Careers</h3>
             <div class="linkFooter">
-                <a>Restuarant Carrers</a>
-                <a>Corporate Careers</a>
-                <a>Culture</a>
-                <a>Growth</a>                
+                <a href="">Restuarant Carrers</a>
+                <a href="">Corporate Careers</a>
+                <a href="">Culture</a>
+                <a href="">Growth</a>                
             </div>
         </div>
         <div>
             <h3>Resources</h3>
             <div class="linkFooter">
-                <a>FAQs</a>
-                <a>Contact US</a>
-                <a>KFC App</a>              
+                <a href="">FAQs</a>
+                <a href="">Contact US</a>
+                <a href="">KFC App</a>              
             </div>
         </div>
         <div>
         <h3>KFC Find a KFC</h3>
         <div class="linkFooter">
-                <a>Find a KFC</a>              
+                <a href="">Find a KFC</a>              
             </div>
         </div>
     </div>
