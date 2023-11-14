@@ -25,3 +25,13 @@
     text-align: justify;
 
 }
+#foodSection{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 15%;
+    background-color: #E0DFDE;
+}
+#foodSectionHeader{
+    display: flex;
+    justify-content: space-between;
+}
