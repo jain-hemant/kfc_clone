@@ -5,7 +5,6 @@
 #main{
     width: 100%;
     background-color: #202124;
-
 }
 
 #sliderImg img{
@@ -29,9 +28,88 @@
     display: flex;
     flex-direction: column;
     padding: 40px 15%;
-    background-color: #E0DFDE;
+    background-color: #FFFFFF;
 }
 #foodSectionHeader{
     display: flex;
     justify-content: space-between;
+    margin: 80px 0px 5px;
+}
+
+#foodSectionFoodCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+#foodCardImg{
+    border-radius: 5px;
+    background-color: #EFEEEC;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.cardItem{
+    padding: 5px 0px;
+}
+#learnMoreSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E4002B;
+    color: white;
+    padding: 40px 0px;
+}
+#startOrderlearnMoreSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 40px 0px; */
+}
+#startOrderWhite{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    background-color: #FFFFFF;
+    font-weight: bolder;
+}
+#learnMoreSectionQuote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+#btnOurFoodLearnMore{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    background-color: #040404;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+#ownerImage{
+    font-size: 1.8em;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10% 15%;
+
+
+}
+#ownerImage h1{
+    color: #040404;
+    width: 70%;
+}
+#ownerImage p{
+    color: #040404;
+    width: 30%;
+}
+#signupBlackWhite{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #040404;
+    color: #FFFFFF;
+    font-weight: bolder;
+
 }

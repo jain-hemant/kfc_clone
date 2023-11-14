@@ -61,7 +61,7 @@
 #tradmarkFooter {
     display: flex;
     justify-content: space-between;
-    /* padding-left: 40px; */
+
     padding: 20px 0px;
     
 }
@@ -69,9 +69,10 @@
 #tradmarkFooter a,p{
     color: white;
     text-decoration: none;
-    padding-right: 10px;
+    padding-right: 5px;
     font-size: 12px;
-    word-spacing: 2px;
+    word-spacing: 2px;    
+    /* margin-left: 40px; */
 }
 .row:nth-child(2){
     margin-left: -5%;
