@@ -6,18 +6,59 @@
     <!-- <meta http-equiv="Content-Type" content="image/svg+xml"> -->
     <title>KFC: World Famous Fried Chicken</title>
     <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/body.css">
     <link rel="stylesheet" href="./static/css/footer.css">
 </head>
 <body>
     <div id="root">
         <header id="header"></header>
         <main id="main">
-            
+            <div id="sliderSection">
+                <div id="sliderImg"></div>
+                <div id="sliderImgText"></div>                
+            </div>
+            <div id="foodSection">
+                <div id="foodSectionHeader">
+                    <h3>SPECIAL OFFERS</h3>
+                    <div id="fullMenu">
+                        <a href="">Full Menu</a>
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div id="foodSectionFoodCard">                    
+                    <div id="foodCardImg"></div>
+                    <div id="foodName"></div>
+                    <div id="cal"></div>
+                    <div id="price"></div>
+                </div>
+                <div id="foodSectionScroll"></div>
+            </div>
+            <div id="learnMoreSection ">
+                <div id="startOrder">
+                    <h5>FINGER LICKIN GOOD<sup>&reg;</sup> IS JUST A FEW CLICK AWAY</h5>
+                    <button id="startOrderWhite"></button>
+                </div>
+                <div id="learnMoreSectionQuote">
+                    <div id="learnMoreSectionQuoteSVG"></div>
+                    <div id="ourFood" >OUR FOOD</div>
+                    <div id="learnMoreqoute">
+                        <h2>WE MAKE IT THE HARD WAY</h2>
+                        <p>See what goes into making our world famous fried chicken.</p>
+                        <button id="learnMore">Learn More</button>
+                    </div>
+
+                </div>
+            </div>
+            <div id="ownerImage ">
+                <h2>UNLOCK MORE FINGER LINKIN' GOOD BENIFITS</h2>
+                <p>Create an account to get access to greate deals and faster checkout.</p>
+                <button id="signupBlackWhite">Sign me up!</button>
+            </div>
         </main>
         <footer id="footer"></footer>
     </div>
 </body>
 </html>
 <script type="module" src="./static/js/header/main.header.js"></script>
-<script type="module" src="./static/js/body/main.body.js"> </script>
+<script type="module" src="./static/js/body/slider.body.js"> </script>
 <script type="module" src="./static/js/footer/main.footer.js"></script>
