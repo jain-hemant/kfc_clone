@@ -1,15 +1,55 @@
 *{
     margin: 0px;
     padding: 0px;
+
+}
+#menuWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0px;
+    padding: 10px 15%;
+}
+#redBars{   
+    position: absolute; 
+
+}
+#wrapperMenuOfferBox{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    padding: 0px 5%;
+    position: relative;
+    background-color: rgb(241, 243, 245);
+}
+#aboutMenuOffer{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+#aboutMenuOffer p{
+    width: 80%;
+    color: rgb(54, 53, 53);
+    font-size: 1.1em;
+    line-height: 20px;
+
+}
+#redeemMenuOfferBox{
+    width: 150px;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 900;
+    background-color: black;
+    color: white;
 }
 #menuCard{
     /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    padding: 10px 10%;
-    gap: 20px;
-    /* width: 80%; */
+    gap: 40px 10px;
+    margin-bottom: 40px; 
 }
 #menuCard a{
     text-decoration: none;
