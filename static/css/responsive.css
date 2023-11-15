@@ -29,14 +29,15 @@
       display: flex;
       flex-direction: column;
     }
+    #linkFooter{
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: column;
+    }
+    .linkFooter{
+      width: 45%;
+    }
   }
 
 
-  #linkFooter{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-  }
-  .linkFooter{
-    width: 45%;
-  }
+  

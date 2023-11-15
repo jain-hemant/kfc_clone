@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(248, 247, 246);
+}
+#loginHeader{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 1px;
+}
+
+#loginBoard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+form{
+    /* border: 1px solid red; */
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    padding: 80px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+    border-radius: 10px;    
+    background-color: white;
+}
+#redBars{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0px;
+    left: 10%;
+}
+form h2{
+    font-weight: 900;    
+    margin-top: -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form label{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+form input{
+    border: none;
+    border-bottom: 1px Solid Black;
+    font-size: 14px;
+    padding: 5px 0px;
+
+}
+form input[type="password"]{
+    position: relative;
+}
+#forgetPassword{
+    position: absolute;
+    right: 40px;
+    top: 210px;
+}
+form button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px; 
+    font-size: 1em;
+
+}
+#loginTerms{
+    font-size: 14px;
+}
+
+p{
+    font-size: 18px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+
+#forgetPassword:visited{
+    color: black;
+}

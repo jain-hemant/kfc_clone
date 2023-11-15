@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/css/registration.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="loginConatiner">
+        <header id="loginHeader">
+            <h3>Kentucky Fried Chicken</h3>
+        </header>
+        <main id="loginMain">
+            <div id="loginBoard">
+                <form action="">
+                    <div id="redBars">
+                        <svg width="40" height="20" xmlns="http://www.w3.org/2000/svg">
+                            <path class="strip-1" d="M0 0h8v20H0z" style="fill: red;"></path>
+                            <path class="strip-2" d="M16 0h8v20h-8z" style="fill: red;"></path>
+                            <path class="strip-3" d="M32 0h8v20h-8z" style="fill: red;"></path>
+                        </svg>
+                    </div>  
+                    <h2> CREATE AN ACCOUNT</h2>
+                    <label for="fname">First Name*</label>
+                    <input type="text" name="fname" id="fname" value="Hemant">
+                    <label for="lname">last Name*</label>
+                    <input type="text" name="lname" id="lname" value="Jain">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" value="hemantjain1321@gmail.com">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+
+                    <div id="signUpTerm">
+                        <input type="checkbox" id="term" name="term" value="term">
+                        <label for="term">  By loging into the application or proceeding as a guest you agree to our <a href="">Privcy Policy</a>. and <a href="">Tearms of Use</a>.</label>
+                        <!-- <p id="loginTerms"></p> -->
+                    </div>
+                    <div id="Promotion">
+                        <input type="checkbox" id="promotion" name="promotion" value="promotion">
+                        <label for="promotion">Sign up for Email updates and Promotions.</label>
+
+                        <p id="loginTerms"></p>
+                    </div>
+                    
+                    <button id="btnLogin">Log In</button>
+                    <p>Already a Member? <a href="">Log In</a></p> 
+                
+                </form>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
