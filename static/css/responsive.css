@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #root{
+        display: flex;
+        flex-direction: column;
+    }
+    /* #header{
+        display: flex;
+        flex-direction: column;
+    }
+    #leftHeader{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #rightHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    #mainHeader{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    } */
+    #foodSectionFoodCard{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+  #linkFooter{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+  .linkFooter{
+    width: 45%;
+  }
