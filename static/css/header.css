@@ -10,13 +10,7 @@
     padding: 0px 10%;
     height: 80px;
 }
-#svgHeaderLogo{ 
-    width: 40px;
-    height: 80px;
-    position: absolute;    
-    left: 160px;
-    /* background-color: blue; */
-}
+
 #logo{
     font-family: cursive;
     font-size: 20px;
@@ -25,8 +19,15 @@
     word-spacing: -3px;
     color: black;    
     position: relative;
-    margin-left: -20px;
+    margin-left: -50px;
     
+}
+#svgHeaderLogo{ 
+    width: 40px;
+    height: 80px;
+    position: absolute;    
+    left: 15%;
+    /* background-color: blue; */
 }
 #leftHeader{
     display: flex;

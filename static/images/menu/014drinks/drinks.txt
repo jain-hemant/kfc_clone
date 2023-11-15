@@ -1,0 +1,50 @@
+
+Pepsi
+Pepsi
+Cal.: 250-900
+Set location for pricing.
+
+Diet Pepsi
+Diet Pepsi
+Cal.: 0
+Set location for pricing.
+
+Starry
+Starry
+Cal.: 280-750
+Set location for pricing.
+
+Mountain Dew
+Mountain Dew
+Cal.: 270-1020
+Set location for pricing.
+
+Mountain Dew Sweet Lightning
+Mountain Dew Sweet Lightning
+Cal.: 160-500
+Set location for pricing.
+
+Dr. Pepper
+Dr. Pepper
+Cal.: 280-750
+Set location for pricing.
+
+Sweet Tea
+Sweet Tea
+Cal.: 280-910
+Set location for pricing.
+
+Lemonade
+Lemonade
+Cal.: 140-500
+Set location for pricing.
+
+Aquafina
+Aquafina
+Cal.: 0
+Set location for pricing.
+
+Beverage Bucket
+Beverage Bucket
+Cal.: 1200
+Set location for pricing.

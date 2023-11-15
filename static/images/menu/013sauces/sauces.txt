@@ -1,0 +1,40 @@
+
+KFC Sauce
+KFC Sauce
+Cal.: 90
+Set location for pricing.
+
+Classic Ranch
+Classic Ranch
+Cal.: 100
+Set location for pricing.
+
+Buffalo Ranch
+Buffalo Ranch
+Cal.: 120
+Set location for pricing.
+
+Honey BBQ
+Honey BBQ
+Cal.: 40
+Set location for pricing.
+
+Honey Mustard
+Honey Mustard
+Cal.: 120
+Set location for pricing.
+
+Honey Sauce
+Honey Sauce
+Cal.: 30
+Set location for pricing.
+
+Hot Sauce
+Hot Sauce
+Cal.: 0
+Set location for pricing.
+
+Ketchup
+Ketchup
+Cal.: 30
+Set location for pricing.
