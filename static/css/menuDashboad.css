@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#menuCard{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 10px 10%;
+    gap: 20px;
+    /* width: 80%; */
+}
+#menuCard a{
+    text-decoration: none;
+    color: black;
+    font-family: "arial black";
+    font-weight: bolder;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
