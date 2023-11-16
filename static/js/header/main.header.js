@@ -1,7 +1,5 @@
 import { leftHeader } from "./left.header.js";
 import { rightHeader } from "./right.header.js";
-// import redBar from "../../images/svg/redBar.svg";
-// import redBar from "static/images/svg/redBar.svg";
 let header = document.getElementById("header")
 let iconLocation = "https://cdn4.iconfinder.com/data/icons/essentials-72/24/025_-_Location-256.png"
 const redBarSVGContent = `
