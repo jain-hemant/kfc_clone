@@ -7,10 +7,10 @@
     /* width: 100vw; */
     background-color: black;    
     /* position:relative; */
-    color: white;
+    /* color: white; */
 }
 #slider img{
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     object-fit: cover;    
     opacity: 0.4;
@@ -27,6 +27,7 @@
 #sliderText h1{
     font-family: "Arial black", Helvetica, sans-serif;
     font-size: 3.2em;
+    color: white;
 }
 #sliderText p{
 
@@ -96,14 +97,58 @@
     padding: 40px 0px;
 }
 .cardProcessStep{
-    line-height: 40px;
+    padding: 20px 0px 5px;
+    line-height: 40px;    
+    border-top: 1px solid rgb(222, 220, 220);
+    /* border-bottom: 1px solid gray; */
 }
 .cardProcessStep h3, .cardProcessStep p{
     color: gray;
 }
-
-
-
+#meetStaff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 10%;
+    gap: 20px;
+}
+.cardStaff{
+    /* width: 100%; */
+    display: flex;
+    gap: 20px;
+    padding: 60px 0px;
+    align-items: center;
+}
+.cardStaff img{
+    width: 500px;
+    height: 550px;
+}
+.cardStaff div{
+    width: 40%;
+}
+.cardStaff div h1{
+    font-size: 2.6rem;
+}
+.cardStaff p{
+    width: 80%;
+    font-size: 14px;
+    color: rgb(52, 51, 51);
+    line-height: 25px;
+    /* border: 1px solid red; */
+}
+#staffImage{
+    width: 100%;
+}
+#staffImage img{
+    object-fit: contain;
+    width: 100%;
+}
+#careerConclude p{
+    color: #2b2b2b;
+    padding: 10% 20% 10% 10%;
+    font-size: 18px;
+    line-height: 30px;
+}
 
 
 
