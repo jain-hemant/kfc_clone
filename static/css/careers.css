@@ -32,3 +32,96 @@
 
     font-size: 14px;
 }
+#exploreKfc{
+    background-color: rgb(38, 37, 37);
+    padding: 20px 0px;
+    color: white;
+}
+#menuExploreKfc{
+    display: flex;
+    justify-content: space-evenly;
+}
+#menuExploreKfc a{    
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 14px;
+}
+#job{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10%;
+    gap: 20px;
+
+}
+#membersJob{
+    display: flex;
+    justify-content: space-evenly;
+}
+.memberCard{display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.memberCard img{
+    width: 80%;
+    
+}
+#jobProcess{
+    /* border: 1px solid red; */
+    padding: 40px 11%;
+}
+#jobProcess p{
+    /* border: 1px solid red; */
+    /* color: black; */
+    width: 100%;
+    font-size: 14px;
+
+}
+#processBrief{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#processBrief p{
+    color: gray;
+    width: 55%;
+    /* text-align: justify; */
+    line-height: 25px;
+    font-size: 16px
+}
+#processStep{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0px;
+}
+.cardProcessStep{
+    line-height: 40px;
+}
+.cardProcessStep h3, .cardProcessStep p{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query Start */
+
+@media screen and (min-width: 720px) {
+    #sliderText{
+        transform: translate(-50%,-50%);
+    }
+    #sliderText h1{
+        font-size: 3em;
+    }
+}
