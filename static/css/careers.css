@@ -149,9 +149,37 @@
     font-size: 18px;
     line-height: 30px;
 }
-
-
-
+#carrerPath{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background-color: rgb(244, 245, 247);
+}
+#careerPathWrapper{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    /* padding: 40px 10%; */
+    
+}
+.cardCareerPath{
+    display: flex;
+    flex-direction: column;    
+    background-color: black;     
+    position: relative;
+    
+}
+.cardCareerPath img{   
+    opacity: 0.4;
+}
+.cardCareerPath h3{       
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin-left: -10px; */
+}
 
 
 
