@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#rewards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+#textBanner{
+    /* border: 2px solid rgb(208, 44, 44); */
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    line-height: 25px;
+    font-size: 1.4rem;
+    padding: 30px 0%;
+    text-align: center;
+    
+}
+#textBanner sup{
+    font-size: 10px;
+}
+#textBanner h1{
+    width: min-content;
+    line-height: 1em;
+    text-align: center;
+}
+#textBanner p{
+    color: rgb(71, 70, 70);
+    font-size: 18px;
+}
+#textBanner button{
+    padding: 15px 120px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(212, 208, 208);
+    color: rgb(71, 70, 70);
+    font-weight: 700;
+
+}
+#textBanner a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+#textBanner a:visited{
+    color: black;
+}
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+.redeemCards{
+    display: flex;
+    justify-content: center;
+    
+}
+.leftredeemCards, .rightredeemCards{
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    line-height: 30px;
+    width: 40%;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    color: black;
+    border-bottom: 1px solid rgb(212, 208, 208);
+    
+
+}
+.leftredeemCards p, .rightredeemCards p{
+    color: black;
+    font-size: 1em;
+}
+
+#appStore{
+    display: flex;
+    justify-content: space-between;
+    
+}

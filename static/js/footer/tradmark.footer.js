@@ -4,7 +4,7 @@ let fb = "https://cdn2.iconfinder.com/data/icons/social-media-2151/512/1_Media_s
 let twitter = "https://cdn2.iconfinder.com/data/icons/social-media-2151/512/12_Media_social_website_Twitter-512.png"
 export const trademarkFooter = `
     <div id="tradmarkFooter"> 
-        <div class="row">
+        <div class="row" id="rowLeft">
             <a href=""> Privacy Policy </a>
             <a href=""> Terms of Use </a>
             <a href=""> Our Cookies and Ads </a>

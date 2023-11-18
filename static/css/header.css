@@ -7,26 +7,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 10%;
-    height: 80px;
+    padding: 0px 5%;
+    height: 100px;
 }
 
 #logo{
-    font-family: cursive;
+    font-family: "Times", Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: -1px;
-    word-spacing: -3px;
+    word-spacing: -1px;
     color: black;    
     position: relative;
-    margin-left: -50px;
+    /* margin-left: -50px; */
     
 }
 #svgHeaderLogo{ 
-    width: 40px;
+    /* width: 40px; */
     height: 80px;
     position: absolute;    
-    left: 15%;
+    left: 10%;
+    top: 0px;
     /* background-color: blue; */
 }
 #leftHeader{
@@ -37,12 +38,13 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    font-size: 14px;
     color: black;
 }
 #rightHeader{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 #startOrder{
     display: flex;
@@ -55,8 +57,8 @@
 #btnStartOrder{
     /* width: 150px;
     height: 40px; */
-    font-size: 16px;
-    padding: 15px 50px;
+    font-size: 12px;
+    padding: 15px 40px;
     border: none ;
     border-radius: 25px;
     background-color: rgb(224, 3, 3);
