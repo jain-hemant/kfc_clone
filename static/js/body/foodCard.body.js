@@ -33,7 +33,7 @@ let foodCardData = [
 ]
 for(let key in foodCardData){
     let foodCard = document.createElement("div")
-    foodCard.setAttribute("id","foodCard")
+    foodCard.setAttribute("class","foodCard")
 
     let divImg = document.createElement("div")
     divImg.setAttribute("id","foodCardImg")

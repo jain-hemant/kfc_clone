@@ -8,7 +8,7 @@ export const rightHeader = `
         <a id= "search" href=""><img src="${imgSearch}" height="30"></a>  
         <a id="account" href="${loginPage}"><img src="${imgAccount}" height="30"></a>      
         <a id="bag" href=""><img src="${imgBag}" height="30"></a>
-        <button id="btnStartOrder">Start Order</button>
+        <a href="/pages/menu/menu.html"><button id="btnStartOrder">Start Order</button></a>
     </div>
 `;
 

@@ -44,7 +44,7 @@
     color: white;
 }
 #menuCard{
-    /* border: 1px solid red; */
+    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -58,6 +58,9 @@
     font-weight: bolder;
     
 }
+/* .cardItem{
+
+} */
 .item{
     display: flex;
     flex-direction: column;

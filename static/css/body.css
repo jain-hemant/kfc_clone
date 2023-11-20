@@ -27,6 +27,7 @@
 #foodSection{
     display: flex;
     flex-direction: column;
+    /* gap: 20px; */
     padding: 40px 15%;
     background-color: #FFFFFF;
 }
@@ -40,7 +41,13 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 0px;
+    column-gap: 30px;
 }
+/* .foodCard{
+    display: flex;
+    flex-direction: column;
+;
+} */
 #foodCardImg{
     border-radius: 5px;
     background-color: #EFEEEC;

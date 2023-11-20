@@ -1,11 +1,11 @@
 let boxArrow = "https://cdn1.iconfinder.com/data/icons/bootstrap/16/box-arrow-up-right-256.png"
 export const leftHeader = `
     <div id="leftHeader">        
-        <p id="logo">Kentucky Fried Chicken</p>
-        <a href="/pages/menu/menu.html">Menu</a>
-        <a href="/pages/reward/reward.html">Reward</a>
-        <a href="/pages/careers/careers.html">Careers</a>
-        <a href="">Merch</a>
+        <a href="/index.html" id="logo"> Kentucky Fried Chicken </a>
+        <a href="/pages/menu/menu.html"> Menu </a>
+        <a href="/pages/rewards/rewards.html"> Rewards </a>
+        <a href="/pages/careers/careers.html"> Careers </a>
+        <a href=""> Merch </a>
         <a href="">Find A KFC <img src="${boxArrow}" height="12px"></a>
     </div>
 `;
